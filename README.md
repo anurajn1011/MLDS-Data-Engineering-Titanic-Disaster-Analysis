@@ -48,7 +48,7 @@ MLDS-Data-Engineering-Titanic-Disaster-Analysis:.
 ## Getting Started:
 1. Clone this repository. Set the repository directory, `MLDS-Data-Engineering-Titanic-Disaster-Analysis`, as working directory.
 2. Within the working directory, at the root, create a new `data` folder. Download the Titanic data, listed in the [Resources](#resources) section.
-3. Unzip the Titanic dataset, and load it into the `data` folder. Ensure that the three CSV files are within a directory called `titanic`, as seen in [Directory Structure](#directory-structure). Ensure that this `titanic` folder is within data. This completes the set up.
+3. Unzip the Titanic dataset, and load it into the `data` folder. Ensure that the three CSV files are within a directory called `titanic`, as seen in [Directory Structure](#directory-structure). Ensure that this `titanic` folder is within the `data` directory. This completes the set up.
 4. Ensure that the Docker engine is running; Open Docker Desktop and ensure that it says "Engine running" on the status bar in the bottom left. 
 5. To run the logistic regression script in python, run the following commands from the root of the working directory:
     1. `docker build -t titanic-disaster-python -f src/analysis_py/Dockerfile .`

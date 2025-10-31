@@ -4,7 +4,7 @@
 
 ## Repository Overview
 Repository for modeling survivability on the Titanic. Done both in Python and R with dedicated Docker images/containers for both. The survivorship rate of 
-individuals on the Titanic are modeled using a Logistic Regression.
+individuals on the Titanic is modeled using a logistic regression.
 
 ## Directory Structure
 ```

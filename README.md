@@ -52,7 +52,7 @@ MLDS-Data-Engineering-Titanic-Disaster-Analysis:.
 4. Ensure that the Docker engine is running; Open Docker Desktop and ensure that it says "Engine running" on the status bar in the bottom left. 
 5. To run logistic regression in python, run the following commands from the root of the working directory:
     1. `docker build -t titanic-disaster-python -f src/analysis_py/Dockerfile .`
-    - `docker run -it titanic-disaster-python`
+    2. `docker run -it titanic-disaster-python`
 6. To run logistic regression in R, run the following commands from the root of the working directory:
-    - `docker build -t titanic-disaster-r -f src/analysis_R/Dockerfile .`
-    - `docker run -it titanic-disaster-r`
+    1. `docker build -t titanic-disaster-r -f src/analysis_R/Dockerfile .`
+    2. `docker run -it titanic-disaster-r`

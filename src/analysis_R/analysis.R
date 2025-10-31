@@ -46,7 +46,9 @@ formula <- as.formula(paste("Survived ~", paste(features, collapse = " + ")))
 
 # Train logistic regression model
 cat("Fitting logistic regression model...\n")
-model <- train(formula, data = train_df, method = "glm", family = "binomial")
+model <- suppressWarnings(
+  train(formula, data = train_df, method = "glm", family = "binomial")
+)
 
 cat("Model training complete.\n")
 
